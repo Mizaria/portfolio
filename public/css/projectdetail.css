@@ -1,0 +1,133 @@
+#projectdetailbackground{
+    background: url('/public/images/f732b0f445d3fec8d1e9109eefa26817.jpg') repeat;
+}
+#projectinnerback{
+    background-color: black;
+    position: relative;
+}
+#projectouterbox{
+    border: 5px solid black; 
+    padding: 15px; 
+    border-radius: 10px; 
+    background-color: #f8f9fa; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    
+    
+}
+#processtitle{
+    margin-top: 130px;
+    font-family: "Copperplate", fantasy;
+}
+
+
+#processminititle {
+    font-family: "Copperplate", fantasy;
+    color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    margin-right: 150px /* Optional for spacing from the edge */
+}
+#processminititle2 {
+    font-family: "Copperplate", fantasy;
+    color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    margin-right: 180px /* Optional for spacing from the edge */
+}
+#projectpara{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 650px;
+    margin-top: 80px;
+   
+         
+    
+}
+#projectpara1{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 650px;
+    margin-top: 420px;
+   
+         
+    
+}
+#projectpara2{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 650px;
+    margin-top: 700px;
+   
+         
+    
+}
+#projectpara3{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 650px;
+    margin-top: 550px;
+   
+         
+    
+}
+#projectpara4{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 650px;
+    margin-top: 1750px;
+   
+         
+    
+}
+#projectpara5{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 650px;
+    margin-top: 2250px;
+   
+         
+    
+}
+#projectdetailimg{
+    border: 5px solid black; 
+    padding: 5px; 
+    border-radius: 3px; 
+    border-color: black;
+    background-color: aquamarine; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    margin-top: 10px;
+    margin-bottom:10px
+    
+}

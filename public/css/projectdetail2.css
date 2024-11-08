@@ -1,0 +1,63 @@
+#projectdetailbackground {
+    background: url('/public/images/f732b0f445d3fec8d1e9109eefa26817.jpg') repeat;
+}
+
+#projectouterbox {
+    border: 5px solid black; 
+    padding: 15px; 
+    border-radius: 10px; 
+    background-color: #f8f9fa; 
+    display: flex; 
+     
+}
+
+#projectbox1 {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: aquamarine;
+    max-width: 1300px;
+}
+#projecttitle{
+    text-align: center;
+    font-family: "Copperplate", fantasy;
+}
+#processtitle {
+    margin-top: 130px;
+    font-family: "Copperplate", fantasy;
+    text-align: center;
+}
+
+#processminititle {
+    font-family: "Copperplate", fantasy;
+    color: aquamarine;
+    margin-bottom: 20px;
+}
+
+#projectdetailimg {
+    border: 5px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+#projectdetailimg2 {
+    border: 5px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1000px;
+    height: 200px;
+}
+
+#projectpara {
+    font-family: 'Times New Roman', Times, serif;
+    color: aquamarine;
+    margin-top: 20px;
+    text-align: left;
+}

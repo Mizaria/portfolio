@@ -1,0 +1,95 @@
+#projecttext{
+    margin-top: 120px;
+    font-family: "Copperplate", fantasy;
+}
+#projectbackground{
+    background: url('/public/images/f732b0f445d3fec8d1e9109eefa26817.jpg') no-repeat;
+}
+#projectintro{
+    color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid aquamarine; 
+    padding: 5px; 
+    border-radius: 3px; 
+    background-color: black ;
+     
+}
+#projectbox1{
+    background-color:black;
+   
+}
+#projectouterbox {
+    border: 5px solid black; 
+    padding: 15px; 
+    border-radius: 10px; 
+    background-color: #f8f9fa; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    
+}
+
+
+
+
+#projectdes{
+    background-color: black;
+    color: aquamarine;
+    border: 1px aquamarine; 
+    border-style: solid;
+    padding: 5px;
+}
+#projectinner{
+    background-color: black;
+    
+}
+#projectside{
+    background-color: lightgray;
+    border: 3px black; 
+    border-style: solid;
+}
+#projectbutton {
+    color: black;              
+    background-color: aquamarine;
+    font-family: "Copperplate", fantasy;
+    padding: 10px 20px;  
+    border: none;       
+    border-radius: 5px;   
+     
+}
+#projectbutton2 {
+    color: black;              
+    background-color: aquamarine;
+    font-family: "Copperplate", fantasy;
+    padding: 8px 15px; 
+    border: none;        
+    border-radius: 5px;   
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+#project1Carousel{
+    background-color: black;
+    color: aquamarine;
+    font-family: "Copperplate", fantasy;
+}
+#project1Carousels{
+    background-color: black;
+    color: aquamarine;
+    font-family: "Copperplate", fantasy;
+}
+#project1Carouselz{
+    background-color: black;
+    color: aquamarine;
+    font-family: "Copperplate", fantasy;
+}
+#projectbuttonl{
+    background-color: aquamarine;
+    color: black;
+    font-family: "Copperplate", fantasy;
+}
+#projectclosebutton{
+    color: aquamarine;
+    background-color: black;
+    font-family: "Copperplate", fantasy;
+}
+

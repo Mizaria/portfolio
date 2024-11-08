@@ -1,0 +1,68 @@
+
+#navbar{ border-style: solid;
+border-color:aquamarine;
+border-width: 1px;
+background-color: black;}
+
+
+
+
+
+#collapsibleNavbar{ background-color:gray;
+    border-style: solid;
+    border-color: aquamarine;
+}
+#homebartext{ color:aquamarine;
+    font-family: "Georgia", serif;}
+#browsebartext{color:aquamarine;
+    font-family: "Georgia", serif;}
+#productbartext{color:aquamarine;
+    font-family: "Georgia", serif;}
+#signlogbutton .nav-link {
+    color: black;
+    font-family: "Copperplate", fantasy;
+    background-color:white;
+    height: 40px;
+}
+/* Styling for the dropdown menu */
+#dropdown {
+    background-color: black;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 1px;
+}
+
+/* Styling for dropdown items */
+#dropdown .dropdown-item {
+    color: aquamarine;
+    background-color: transparent;
+}
+
+/* Hover effect for dropdown items */
+#dropdown .dropdown-item:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+/* Dropdown toggle button styling */
+#productbartext {
+    color: aquamarine;
+}
+
+/* Optional: Hover effect for dropdown toggle button */
+#productbartext:hover {
+    color: white;
+}
+
+
+#logo{
+    border-color:aquamarine;
+    border-style: solid;
+    border: 2px;
+    background-color: white;
+}
+#mizaria{color:aquamarine;
+    font-family: "Copperplate", fantasy;
+    font-size: xx-large;
+}
+

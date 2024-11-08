@@ -1,0 +1,51 @@
+#contactmetext {
+    color: black;
+    
+    
+    font-family: "Copperplate", fantasy;
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-100%); /* Start off-screen to the left */
+    animation: slide-in 1s ease-out forwards; /* Animation settings */
+    animation-delay: 0.5s; /* Optional delay */
+    
+}
+
+/* Space between About and Me */
+.space {
+    display: inline-block; /* Ensure it takes space as an inline element */
+    width: 15px; /* Adjust width for more or less space */
+}
+
+/* Keyframes for Slide-in Animation */
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+#contactbackground {
+    background: url('/public/images/f732b0f445d3fec8d1e9109eefa26817.jpg') no-repeat;
+ }
+ #icon-container {
+    display: flex;
+    justify-content: center; /* Centers the icons horizontally */
+    gap: 80px; /* Adjusts space between icons */
+    padding: 10px; /* Optional padding around the container */
+}
+
+.icons {
+    object-fit: contain; /* Ensures the image fits within the given size */
+    max-width: 300px; /* Limits the max width for icons */
+    height: auto; /* Maintains aspect ratio */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.icons:hover {
+    transform: scale(1.1); /* Increases size by 10% on hover */
+}
+
+
