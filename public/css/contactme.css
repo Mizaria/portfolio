@@ -3,20 +3,20 @@
     
     
     font-family: "Copperplate", fantasy;
-    opacity: 0; /* Initially hidden */
-    transform: translateX(-100%); /* Start off-screen to the left */
-    animation: slide-in 1s ease-out forwards; /* Animation settings */
-    animation-delay: 0.5s; /* Optional delay */
+    opacity: 0; 
+    transform: translateX(-100%); 
+    animation: slide-in 1s ease-out forwards; 
+    animation-delay: 0.5s; 
     
 }
 
-/* Space between About and Me */
+
 .space {
-    display: inline-block; /* Ensure it takes space as an inline element */
-    width: 15px; /* Adjust width for more or less space */
+    display: inline-block; 
+    width: 15px;
 }
 
-/* Keyframes for Slide-in Animation */
+
 @keyframes slide-in {
     0% {
         opacity: 0;
@@ -32,20 +32,20 @@
  }
  #icon-container {
     display: flex;
-    justify-content: center; /* Centers the icons horizontally */
-    gap: 80px; /* Adjusts space between icons */
-    padding: 10px; /* Optional padding around the container */
+    justify-content: center; 
+    gap: 80px;
+    padding: 10px; 
 }
 
 .icons {
-    object-fit: contain; /* Ensures the image fits within the given size */
-    max-width: 300px; /* Limits the max width for icons */
-    height: auto; /* Maintains aspect ratio */
-    transition: transform 0.3s ease; /* Smooth scaling effect */
+    object-fit: contain; 
+    max-width: 300px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
 }
 
 .icons:hover {
-    transform: scale(1.1); /* Increases size by 10% on hover */
+    transform: scale(1.1); 
 }
 
 

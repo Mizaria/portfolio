@@ -38,10 +38,36 @@ app.get('/C257p', (req, res) => {
   res.render('C257process', { 
   });
 });
-app.get('/C237', (req, res) => {
-  res.render('C237', { 
+app.get('/C257p2', (req, res) => {
+  res.render('C257process2', { 
   });
 });
+app.get('/C257p3', (req, res) => {
+  res.render('C257process3', { 
+  });
+});
+app.get('/C218', (req, res) => {
+  res.render('C218', { 
+  });
+});
+app.get('/C218p', (req, res) => {
+  res.render('C218process', { 
+  });
+});
+app.get('/C218p2', (req, res) => {
+  res.render('C218process2', { 
+  });
+});
+app.get('/C219', (req, res) => {
+  res.render('C219', { 
+  });
+});
+app.get('/C219p', (req, res) => {
+  res.render('C219process', { 
+  });
+});
+
+
 app.get('/aboutme', (req, res) => {
   res.render('AboutMe', { 
    

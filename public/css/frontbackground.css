@@ -1,4 +1,4 @@
-/* Background and Layout */
+
 #frontbackground {
     background: url('/public/images/frontwallpaper2.png') no-repeat center center;
     background-size: 1200px;
@@ -19,32 +19,31 @@
     background-color: aquamarine;
 }
 
-/* Text Line Styling */
-/* Ensuring the Heading Text Color Stays Black */
+
 #Mizaria, #Portfolio {
     font-family: "Copperplate", fantasy;
-    color: black !important;  /* Enforce black color */
+    color: black !important;  
     margin-bottom: 10px;
     display: inline-block;
 }
 
-/* Animation for Each Letter */
+
 h1 span {
     opacity: 0;
     animation: fade-in 1s forwards;
     display: inline-block;
-    color: black !important;  /* Ensure letters remain black */
+    color: black !important;  
 }
 
 
-/* Keyframes for Letter-by-Letter Animation */
+
 @keyframes fade-in {
     to {
         opacity: 1;
     }
 }
 
-/* Incremental Delays for "Welcome" Letters */
+
 #Mizaria span:nth-child(1) { animation-delay: 0s; }
 #Mizaria span:nth-child(2) { animation-delay: 0.1s; }
 #Mizaria span:nth-child(3) { animation-delay: 0.2s; }
@@ -53,7 +52,7 @@ h1 span {
 #Mizaria span:nth-child(6) { animation-delay: 0.5s; }
 #Mizaria span:nth-child(7) { animation-delay: 0.6s; }
 
-/* Incremental Delays for "to my portfolio" Letters */
+
 #Portfolio span:nth-child(1) { animation-delay: 0.9s; }
 #Portfolio span:nth-child(2) { animation-delay: 1s; }
 #Portfolio span:nth-child(3) { animation-delay: 1.1s; }
@@ -70,30 +69,30 @@ h1 span {
 #Portfolio span:nth-child(14) { animation-delay: 2.2s; }
 #Portfolio span:nth-child(15) { animation-delay:2.3s; }
 #Portfolio span:nth-child(16) { animation-delay:2.4s; }
-/* Enter Button Styling */
+
 #Enterbutton {
     color: aquamarine;
     background-color: black;
     font-family: "Copperplate", fantasy;
     font-size: 1.5rem;
-    opacity: 0; /* Start hidden */
-    transition: opacity 1s ease-in; /* Smooth appearance */
+    opacity: 0;
+    transition: opacity 1s ease-in; 
     animation: button-fade-in 1s forwards;
-    animation-delay: 3s; /* Button appears after all text animations */
+    animation-delay: 3s; 
     margin-top: 15px;
     padding: 10px 20px;
     border-radius: 8px;
 }
 
-/* Button Fade-in Animation */
+
 @keyframes button-fade-in {
     to {
         opacity: 1;
     }
 }
 .space {
-    display: inline-block; /* Ensure it takes space as an inline element */
-    width: 15px; /* Adjust width for more or less space */
+    display: inline-block; 
+    width: 15px; 
 }
 
 #frontlogo{

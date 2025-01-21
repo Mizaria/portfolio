@@ -24,7 +24,7 @@ background-color: black;}
     background-color:white;
     height: 40px;
 }
-/* Styling for the dropdown menu */
+
 #dropdown {
     background-color: black;
     border-style: solid;
@@ -32,24 +32,24 @@ background-color: black;}
     border-width: 1px;
 }
 
-/* Styling for dropdown items */
+
 #dropdown .dropdown-item {
     color: aquamarine;
     background-color: transparent;
 }
 
-/* Hover effect for dropdown items */
+
 #dropdown .dropdown-item:hover {
     background-color: aquamarine;
     color: black;
 }
 
-/* Dropdown toggle button styling */
+
 #productbartext {
     color: aquamarine;
 }
 
-/* Optional: Hover effect for dropdown toggle button */
+
 #productbartext:hover {
     color: white;
 }

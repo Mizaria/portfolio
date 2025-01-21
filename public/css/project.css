@@ -3,7 +3,8 @@
     font-family: "Copperplate", fantasy;
 }
 #projectbackground{
-    background: url('/public/images/f732b0f445d3fec8d1e9109eefa26817.jpg') no-repeat;
+    background: url('/public/images/f732b0f445d3fec8d1e9109eefa26817.jpg') repeat;
+    
 }
 #projectintro{
     color: aquamarine;
@@ -12,11 +13,21 @@
     padding: 5px; 
     border-radius: 3px; 
     background-color: black ;
+    border-radius: 20px;
      
 }
 #projectbox1{
     background-color:black;
    
+}
+#character{
+    width: 490px;
+    height: 490px;
+}
+
+#nextbutton{
+    background-color: black;
+
 }
 #projectouterbox {
     border: 5px solid black; 
@@ -26,6 +37,7 @@
     display: flex; 
     flex-direction: column; 
     gap: 10px; 
+    margin-bottom: 10px;
     
 }
 

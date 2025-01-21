@@ -3,20 +3,19 @@
     margin-top: 80px;
     
     font-family: "Copperplate", fantasy;
-    opacity: 0; /* Initially hidden */
-    transform: translateX(-100%); /* Start off-screen to the left */
-    animation: slide-in 1s ease-out forwards; /* Animation settings */
-    animation-delay: 0.5s; /* Optional delay */
-    
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slide-in 1s ease-out forwards; 
+    animation-delay: 0.5s; 
 }
 
 /* Space between About and Me */
 .space {
-    display: inline-block; /* Ensure it takes space as an inline element */
-    width: 15px; /* Adjust width for more or less space */
+    display: inline-block; 
+    width: 15px; 
 }
 
-/* Keyframes for Slide-in Animation */
+
 @keyframes slide-in {
     0% {
         opacity: 0;
@@ -29,10 +28,10 @@
 }
 #aboutbackground {
 
-    position: relative;  /* Required for pseudo-element positioning */
+    position: relative;  
     margin: 0;
-    padding: 20px;  /* Adjust padding for content spacing */
-    z-index: 1;  /* Ensure content is above the background */
+    padding: 20px;  
+    z-index: 1; 
 }
 
 #aboutbackground::before {
@@ -43,9 +42,9 @@
     width: 100%;
     height: 100%;
     background-color: lightgray;
-    opacity: 0.5;  /* Adjust the opacity here */
-    z-index: -1;  /* Send the background behind the content */
-    pointer-events: none;  /* Prevent interaction with the pseudo-element */
+    opacity: 0.5;  
+    z-index: -1;  
+    pointer-events: none;  
 }
 
  #Aboutbackground {
